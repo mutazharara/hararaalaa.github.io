@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'FrutigerLTArabic45Light';
+    src: url('../fonts/arabic/FrutigerLTArabic45Light.woff2') format('woff2'),
+    url('../fonts/arabic/FrutigerLTArabic45Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NeoSans-bold';
+    src: url('../fonts/arabic/NeoSans-bold.woff') format('woff');
+}
+
+body {
+
+    font-family: 'FrutigerLTArabic45Light';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.title,
+.card-title,
+.info-title,
+.footer-brand,
+.footer-big h5,
+.footer-big h4,
+.media .media-heading {
+    font-family: NeoSans-bold;
+    font-weight: normal;
+}
+
+a {
+    font-family: NeoSans-bold;
+    font-size: 14px;
+}
+
+input,
+textarea,
+select,
+button,
+meter,
+progress,
+p {
+    font-family: 'FrutigerLTArabic45Light';
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    padding: 10px 15px 10px 45px;
+}
+
+.text-left {
+    text-align: right!important;
+}
+
+.typography-line {
+    padding-right: 180px;
+    padding-left: 0;
+}
+
+.typography-line .note {
+    right: 0;
+    left: auto;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.switch {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.social-share {
+    float: right;
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+#subscribe_email {
+    border-right: 0;
+    border-left: 0;
+}
+
+.pick-class-label {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.logo-container .logo {
+    float: right;
+}
+
+.logo-container .brand {
+    float: right;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.social-buttons-demo .btn {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+@media screen and (min-width:991px) {
+    .presentation .loader {
+        right: 50%;
+        left: auto;
+        margin-right: -32px;
+        margin-left: 0;
+    }
+
+    .presentation .card-component .front {
+        right: 0;
+        left: auto;
+    }
+
+    .presentation .description .col-md-3 {
+        margin-right: 4%;
+        margin-left: 0;
+    }
+
+    .presentation .section-gray-gradient {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 75% 100%);
+    }
+
+    .rotating-card {
+        background: none repeat scroll right 0 #FFFFFF;
+    }
+
+    .rotating-card .front,
+    .rotating-card .back {
+        right: 0;
+        left: auto;
+    }
+
+    .rotating-card .image {
+        border-radius: 20px 20px 0 0;
+    }
+
+    pre.prettyprint {
+        text-align: right;
+    }
+
+    .presentation .section-images .card-image {
+        border-radius: 6px 6px 0 0;
+    }
+
+    .presentation .card-text-adjust {
+        padding-right: 40px;
+        padding-left: 0;
+    }
+
+    .presentation .info.info-separator:after {
+        left: -7px;
+        right: auto;
+    }
+
+    .layers-container img {
+        right: 0;
+        left: auto;
+    }
+
+    .info.info-separator:after {
+        left: -7px;
+        right: auto;
+    }
+
+    .container-right-click {
+        right: 0;
+        left: auto;
+    }
+
+    .demo-icons section h2 {
+        padding: 0 .2em 1em 0;
+    }
+
+    .demo-icons ul li {
+        float: right;
+    }
+
+    .area-line {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .flage-lg {
+        margin: 0 5px 0px 10px;
+    }
+
+    .row.border-col [class*=col-] {
+        border-right: 0;
+        border-left: none;
+    }
+
+    .row.border-col [class*=col-]:last-child {
+        border-left: 0;
+        border-right: none;
+    }
+
+    .services-section {
+        padding: 50px 0 80px 0;
+    }
+
+
+    .service-item .loader::before {
+        right: 0;
+        left: auto;
+    }
+
+    .content-service {
+        right: 0;
+        left: auto;
+    }
+
+    .scroll-wrap {
+        right: 0;
+        left: auto;
+    }
+
+    .content-service-item {
+        padding: 60px 60px 80px 60px;
+    }
+
+    .close-button {
+        left: 0;
+        right: auto;
+    }
+
+    .placeholder {
+        right: 0;
+        left: auto;
+    }
+
+
+
+    .card img {
+        border-radius: 12px 12px 0 0;
+    }
+
+
+}
+
+/* Start Rtl */
+
+.navbar .navbar-collapse.show .navbar-nav .nav-item {
+    padding-right: 10px;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar .navbar-toggler-right {
+    float: left;
+    margin-top: 40px;
+}
+
+.navbar .navbar-toggler-right.toggled {
+    -webkit-transform: translate3d(230px, 0, 0);
+    -moz-transform: translate3d(230px, 0, 0);
+    -o-transform: translate3d(230px, 0, 0);
+    -ms-transform: translate3d(230px, 0, 0);
+    transform: translate3d(230px, 0, 0);
+}
+
+.ticker-content {
+    padding-right: 82px;
+    padding-left: 50px;
+}
+
+.ticker-navs {
+    left: 0;
+    right: auto;
+}
+
+.remain-box {
+    right: 0;
+    left: auto;
+}
+
+.ticker .remain-tickers {
+    margin-left: 14px;
+    margin-right: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+}
+
+.navbar .nav-link i {
+    left: 3px;
+    right: initial;
+}
+
+.fa-angle-left:before {
+    content: "\f105"!important;
+}
+
+.fa-angle-right:before {
+    content: "\f104"!important;
+}
+
+.navbar-nav.ml-auto {
+    margin-right: auto!important;
+    margin-left: initial!important;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+    border-right: 0 none;
+    border-left: 1px solid #DDDDDD;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-left: 0 none;
+    padding-left: 0;
+    padding-right: .75rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-right: 1px solid #DDDDDD;
+    border-bottom-right-radius: 4px;
+}
+
+.owl-carousel,
+.bx-wrapper {
+    direction: ltr;
+}
+
+.owl-carousel .owl-item {
+    direction: rtl;
+}
+
+.mr-2 {
+    margin-left: .5rem!important;
+    margin-right: 0!important;
+}
+
+@media screen and (max-width: 991px) {
+    .service-item .title {
+        font-size: 16px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .service-item .title {
+        font-size: 15px;
+    }
+
+}
